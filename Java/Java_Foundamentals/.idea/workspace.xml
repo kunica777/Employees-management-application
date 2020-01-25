@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="11d0ce6b-ad0e-4a5b-8fd9-dbdd8c258d13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/booleans/AllCaps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/StringsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/StringsApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/booleans/ShortCircuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/booleans/ShortCircuit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/booleans/AllCaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/booleans/AllCaps.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579952875210</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="return boolean true for all capitals in a String">
+      <created>1579955484646</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1579955484646</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -195,33 +200,34 @@
     <MESSAGE value="check for null and empty" />
     <MESSAGE value="check array for null and empty values" />
     <MESSAGE value="create short circuit java" />
-    <option name="LAST_COMMIT_MESSAGE" value="create short circuit java" />
+    <MESSAGE value="return boolean true for all capitals in a String" />
+    <option name="LAST_COMMIT_MESSAGE" value="return boolean true for all capitals in a String" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579938319057">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1579938319057" />
-    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1579952874579">
+    <state x="491" y="0" key="CommitChangelistDialog2" timestamp="1579955484084">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1579952874579" />
-    <state width="1237" height="154" key="GridCell.Tab.0.bottom" timestamp="1579955332567">
+    <state x="491" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1579955484084" />
+    <state width="1237" height="154" key="GridCell.Tab.0.bottom" timestamp="1579956508155">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="154" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579955332567" />
-    <state width="1237" height="154" key="GridCell.Tab.0.center" timestamp="1579955332567">
+    <state width="1237" height="154" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579956508155" />
+    <state width="1237" height="154" key="GridCell.Tab.0.center" timestamp="1579956508155">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="154" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579955332567" />
-    <state width="1237" height="154" key="GridCell.Tab.0.left" timestamp="1579955332567">
+    <state width="1237" height="154" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579956508155" />
+    <state width="1237" height="154" key="GridCell.Tab.0.left" timestamp="1579956508155">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="154" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579955332567" />
-    <state width="1237" height="154" key="GridCell.Tab.0.right" timestamp="1579955332567">
+    <state width="1237" height="154" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579956508155" />
+    <state width="1237" height="154" key="GridCell.Tab.0.right" timestamp="1579956508155">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="154" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579955332567" />
+    <state width="1237" height="154" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579956508155" />
     <state x="373" y="51" key="RollbackChangesDialog" timestamp="1579947287139">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
