@@ -1,25 +1,35 @@
 package com.company;
 
+import java.util.Arrays;
+
 public class StringsApp {
     public static void main(String[] args) {
-        //String name = "alice";
-        String names[] = new String []{"AliCe", "aLicE", "alice", null, ""};
-        for(String name: names){
-            System.out.println(capitalize(name));
-        }
-        //capitalize(name);
-
+        String names[] = new String[]{"AliCe", "aLicE", "alice", null, ""};
+        System.out.println(Arrays.toString(getValidArray(names)));
     }//end of main method
 
-    static String capitalize(String word) {
-        if (word == null || word.isEmpty()) {
-            return "";
-        }
+    //this method return an array of valid values (not null, not empty)
+    static String[] getValidArray(String[] array) {
+        //step 1: check how many values are valid
+        int length = 0;
+        for (String value : array) {
+            if (!(value == null || value.isEmpty())) {
+                length++;
+            }
+        }//step 2: create an array of the specified length
+        String[] validValues = new String[length];
 
-        String lowerCase = word.toLowerCase();
-        String upperCase = word.toUpperCase();
-        String result = upperCase.charAt(0) + lowerCase.substring(1, word.length());
-        return result;
+        //step 3: import valid values into a created array
+        int index = 0;
+        while (index < length) {
+            for (String value : array) {
+                if (!(value == null || value.isEmpty())) {
+                    validValues[index] = value;
+                }
+                index++;
+            }
+        }
+        return validValues;
     }
-}
+}//end of class
 

@@ -131,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579945375281</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="check for null and empty">
+      <created>1579947402761</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1579947402761</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -139,33 +146,34 @@
     <MESSAGE value="Init" />
     <MESSAGE value="Sum numbers from array indexes" />
     <MESSAGE value="Return Name with 1st capital letter and the rest as lower case" />
-    <option name="LAST_COMMIT_MESSAGE" value="Return Name with 1st capital letter and the rest as lower case" />
+    <MESSAGE value="check for null and empty" />
+    <option name="LAST_COMMIT_MESSAGE" value="check for null and empty" />
   </component>
   <component name="WindowStateProjectService">
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579938319057">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1579938319057" />
-    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1579945374640">
+    <state x="264" y="0" key="CommitChangelistDialog2" timestamp="1579947402134">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1579945374640" />
-    <state width="1237" height="154" key="GridCell.Tab.0.bottom" timestamp="1579947292013">
+    <state x="264" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1579947402134" />
+    <state width="1237" height="154" key="GridCell.Tab.0.bottom" timestamp="1579951314469">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="154" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579947292013" />
-    <state width="1237" height="154" key="GridCell.Tab.0.center" timestamp="1579947292013">
+    <state width="1237" height="154" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1579951314469" />
+    <state width="1237" height="154" key="GridCell.Tab.0.center" timestamp="1579951314469">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="154" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579947292013" />
-    <state width="1237" height="154" key="GridCell.Tab.0.left" timestamp="1579947292013">
+    <state width="1237" height="154" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1579951314469" />
+    <state width="1237" height="154" key="GridCell.Tab.0.left" timestamp="1579951314469">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="154" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579947292013" />
-    <state width="1237" height="154" key="GridCell.Tab.0.right" timestamp="1579947292013">
+    <state width="1237" height="154" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1579951314469" />
+    <state width="1237" height="154" key="GridCell.Tab.0.right" timestamp="1579951314469">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="154" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579947292013" />
+    <state width="1237" height="154" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1579951314469" />
     <state x="373" y="51" key="RollbackChangesDialog" timestamp="1579947287139">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
