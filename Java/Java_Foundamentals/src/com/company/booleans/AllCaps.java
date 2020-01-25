@@ -1,14 +1,13 @@
 package com.company.booleans;
 
+import java.util.concurrent.TimeUnit;
+
 public class AllCaps {
     public static void main(String[] args) {
-        //System.out.println(allCaps("Hello"));
-        //System.out.println(allCaps("HELLO"));
-        //System.out.println(allCaps("hello"));
-        System.out.println(hasAllNumbers("1234567"));
-        System.out.println(hasAllNumbers("abc123"));
-        System.out.println(hasAllNumbers("hello"));
-    }
+        System.out.println(hasAtListOneNumber("1234567"));
+        System.out.println(hasAtListOneNumber("abc123"));
+        System.out.println(hasAtListOneNumber("hello"));
+    }//end of main
 
     static boolean allCaps(String word) {
         int index = 0;
@@ -22,16 +21,26 @@ public class AllCaps {
         return upperCases == word.length();
     }
 
-
-    static boolean hasAllNumbers(String input){
-        int index=0;
-        int numbers =0;
-        while(index<input.length()){
-            if(Character.isDigit(input.charAt(index))){
+    static boolean hasAllNumbers(String input) {
+        int index = 0;
+        int numbers = 0;
+        while (index < input.length()) {
+            if (Character.isDigit(input.charAt(index))) {
                 numbers++;
-            }index++;
-        }return numbers == input.length();
+            }
+            index++;
+        }
+        return numbers == input.length();
     }
 
-
-}
+    static boolean hasAtListOneNumber(String input) {
+        int index = 0;
+        while (index < input.length()) {
+            if (Character.isDigit(input.charAt(index))) {
+                return true;
+            }
+            index++;
+        }
+        return false;
+    }
+}//end of class
