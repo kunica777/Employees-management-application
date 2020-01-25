@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class StringsApp {
     public static void main(String[] args) {
         String names[] = new String[]{"AliCe", "aLicE", "alice", null, ""};
-        System.out.println(capitalizeString(getValidArray(names)));
+        System.out.println(Arrays.toString(getValidArray(names)));
     }//end of main method
 
     //this method return an array of valid values (not null, not empty)
