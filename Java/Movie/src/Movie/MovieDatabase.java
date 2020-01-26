@@ -22,6 +22,10 @@ public class MovieDatabase {
     };
 
     public static void main(String... args) {
-
+    }
+    public static void listAllMovies(){
+        for(Movie movie: movies) {
+            System.out.println(movie.getName());
+        }
     }
 }

@@ -20,4 +20,8 @@ public class Movie {
         this.rating = rating;
         this.genres = Arrays.copyOf(genres, genres.length);
     }
+
+    public String getName() {
+        return name;
+    }
 }
