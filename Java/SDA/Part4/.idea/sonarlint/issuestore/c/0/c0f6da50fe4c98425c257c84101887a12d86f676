@@ -1,0 +1,5 @@
+
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(ú…Íœýÿÿÿÿ
+^
+java:S22764"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(»ãßºøÿÿÿÿ
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍþÿÿÿÿ

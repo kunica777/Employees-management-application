@@ -1,7 +1,7 @@
 package cinema;
-import com.company.cinema.Movie.Genre;
+import cinema.Movie.Genre;
+import static cinema.Movie.Genre.*;
 
-import static com.company.cinema.Movie.Genre.*;
 
 public class MovieDatabase {
     private static Movie[] movies = {
@@ -101,12 +101,6 @@ public class MovieDatabase {
     }
 
     public static void main(String... args) {
-        //listAllMovies();
-        //printOldestMovie();
-        //printMoviesByGenre(FANTASY);
-        //printMovieWithTheHighestRating();
-        //printMoviesWithYearInRange(2015, 2016);
-        //printMoviesWithRatingInRange(7, 8);
         printMoviesWithSearch("star trek");
     }
 }
